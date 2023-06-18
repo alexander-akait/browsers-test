@@ -113,6 +113,7 @@
 /******/ 			if(!data) {
 /******/ 				data = getComputedStyle(document.head).getPropertyValue(name);
 /******/ 			}
+                    console.log(data);
 /******/ 			if(!data) return [];
 /******/ 			for(; cc; i++) {
 /******/ 				cc = data.charCodeAt(i);
