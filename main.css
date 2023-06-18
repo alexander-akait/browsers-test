@@ -1,0 +1,11 @@
+@media screen {
+	.foo {
+		color: red;
+	}
+}
+
+.main {
+	color: blue;
+}
+
+head{--webpack-webpack-main:\.\/src\/foo\.css,\.\/src\/style\.css;}
